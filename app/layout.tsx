@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "@/styles/globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { Analytics } from "@vercel/analytics/react";
 // import CollapsibleChatbot from "@/components/chatbot/collapsible-chatbot";
