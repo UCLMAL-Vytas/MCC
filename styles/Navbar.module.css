@@ -14,6 +14,12 @@
 .logoContainer {
   display: block;
   text-decoration: none;
+  position: fixed;
+  bottom: 20px; /* Adjust this value for desired spacing from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1001; /* Ensure it's above the navbar if they overlap */
+  text-align: center; /* Centers the .logo image if it's inline/inline-block */
 }
 
 .logo {

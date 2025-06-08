@@ -8758,3 +8758,8 @@ list-style-type: none;
     position: relative;
     z-index: 2; /* Ensure content is above the overlay */
 }
+
+
+[class^="section-"] > div {
+  height: 120vh;
+}
